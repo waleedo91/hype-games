@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  padding: 30px 0;
+  box-sizing: border-box;
+  margin-bottom: 80px;
+  background: rgba(16, 185, 81, 0.7);
+  
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar .site-name {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Ceviche one";
+  color: var(--heading-color);
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+}
