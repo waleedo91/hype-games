@@ -1,0 +1,23 @@
+.game-list {
+  display: flex;
+}
+
+.game-container {
+  border: 1px solid white;
+  color: white;
+  width: inherit;
+  display: grid;
+  margin: 40px auto;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+.game-container .game-image {
+  background: cover;
+  width: 350px;
+}
+
+.game-container a {
+  text-decoration: none;
+  color: white;
+}
