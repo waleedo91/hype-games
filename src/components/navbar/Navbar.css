@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin-bottom: 80px;
   background: rgba(16, 185, 81, 0.7);
-  
 }
 
 .navbar ul {
@@ -24,6 +23,11 @@
   align-items: center;
   margin-right: auto;
   margin-left: 10px;
+}
+
+.navbar .nav-button {
+  font-family: "Ceviche one";
+  font-size: 24px;
 }
 
 .navbar a {

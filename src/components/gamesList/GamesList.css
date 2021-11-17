@@ -1,8 +1,11 @@
 .game-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin: 40px auto;
 }
 
-.game-container {
+.games-container {
   border: 1px solid white;
   color: white;
   width: inherit;
@@ -14,7 +17,9 @@
 
 .game-container .game-image {
   background: cover;
-  width: 350px;
+  max-width: 1200px;
+  width: 320px;
+  height: 220px;
 }
 
 .game-container a {

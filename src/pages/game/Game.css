@@ -1,0 +1,44 @@
+.game-detail {
+  grid-template-columns: 3fr 2fr;
+  align-items: start;
+  grid-gap: 60px;
+}
+
+/* game summary */
+.game-summary {
+  /* background: #fff; */
+  padding: 30px;
+  border-radius: 4px;
+  color: white;
+}
+
+.game-image {
+  height: 500px;
+  width: 500px;
+}
+
+.game-left {
+  color: white;
+  width: 500px;
+}
+
+.game-right {
+  color: white;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 40px;
+  align-items: start;
+  border: 1px solid white;
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.platforms {
+  border: 1px solid white;
+  text-decoration: none;
+}

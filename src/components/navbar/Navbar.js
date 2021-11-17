@@ -17,10 +17,10 @@ export default function Navbar() {
         </li>
         {!user && (
           <>
-            <li>
+            <li className="nav-button">
               <Link to="/login">Login</Link>
             </li>
-            <li>
+            <li className="nav-button">
               <Link to="/signup">Signup</Link>
             </li>
           </>
