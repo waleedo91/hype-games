@@ -1,28 +1,48 @@
-.game-list {
+.games-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 40px;
-  margin: 40px auto;
 }
 
 .games-container {
-  border: 1px solid white;
+  display: inline-block;
   color: white;
-  width: inherit;
-  display: grid;
-  margin: 40px auto;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 20px;
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 10px 30px;
+  height: 300px;
+  border: 1px solid white;
 }
 
-.game-container .game-image {
-  background: cover;
-  max-width: 1200px;
-  width: 320px;
-  height: 220px;
+.games-container .game-image {
+  max-height: 230px;
+  width: 100%;
+  margin-top: 20px;
 }
 
-.game-container a {
+.games-container a {
   text-decoration: none;
   color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  .games-list {
+    grid-template-columns: 1fr;
+  }
+
+  .games-container {
+    width: 300px;
+    height: 200px;
+  }
+
+  .game-image {
+    max-height: 200px;
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1400px) {
+  .games-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

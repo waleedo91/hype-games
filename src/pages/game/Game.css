@@ -12,10 +12,10 @@
   color: white;
 }
 
-.game-image {
+/* .game-image {
   height: 500px;
   width: 500px;
-}
+} */
 
 .game-left {
   color: white;
@@ -30,12 +30,6 @@
   grid-gap: 40px;
   align-items: start;
   border: 1px solid white;
-}
-
-.game-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
 }
 
 .platforms {
