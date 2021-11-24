@@ -1,23 +1,31 @@
 .games-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 
 .games-container {
   display: inline-block;
   color: white;
-  text-decoration: underline;
   font-size: 25px;
   font-family: sans-serif;
-  margin: 10px 30px;
+  margin: 30px 35px;
   height: 300px;
-  border: 1px solid white;
 }
 
-.games-container .game-image {
-  max-height: 230px;
+.game-image {
+  transition: transform 450ms;
+  height: 275px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 15px;
+  background: cover;
+  border-radius: 100px;
+  border: 2px solid green;
+}
+
+.game-image:hover {
+  transform: scale(1.08);
 }
 
 .games-container a {

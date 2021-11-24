@@ -10,6 +10,19 @@
   --bg-color: black;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: green;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.514);
+  border-radius: 10px;
+}
+
 body {
   margin: 0;
   font-size: 1.1em;
